@@ -1,3 +1,69 @@
-body {
-    padding: 20px;
-}
+  <style type="text/css">
+  
+  h1{
+    font-family: Comic Sans Ms;
+    color: red;
+  }
+
+  .test{
+  	font-family: Indie Flower;
+  	color: #3F51B5;
+  	font-size: 40px;
+  	text-align: center;
+  	text-decoration: underline;	
+  	margin-top: 0px;
+  }
+
+  .leftblock{
+  	font-family: Kalam;
+  	color: red;
+  	border-color: red;
+  	border-radius: 10px;
+    border-width: 4px;
+    background-color: #FFEBEE;
+  }
+
+
+  .rightblock{
+    font-family: Kalam;
+  	color: #33691E;
+  	border-color: green;
+  	border-radius: 10px;
+    border-width: 4px;
+    background-color: #F1F8E9;
+  }
+
+  .lefttext{
+  	font-size: 20px;
+  	text-decoration: underline;
+
+  }
+
+  .righttext{
+  	font-size: 20px;
+  	text-decoration: underline;
+  }
+
+  .btnview{
+  	margin-top: 15px;
+  	color: #3F51B5;
+  	border-color: #3F51B5;
+  	border-radius: 5px;
+    border-width: 2px;
+  }
+
+  .tstamp{
+    font-size: 10px;
+    font-family: Monospace;
+    text-align: right;
+  }
+
+  div.alert-danger:hover{
+    background-color: #F8BBD0;
+  }
+
+  div.alert-success:hover{
+    background-color: #B2FF59;
+  }
+
+</style>

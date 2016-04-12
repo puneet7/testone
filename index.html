@@ -1,3 +1,71 @@
-<link rel="stylesheet" href="main.css">
-<h3>todo!</h3>
-<script src="main.js"></script>
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>To-Do List</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kalam' rel='stylesheet' type='text/css'>
+  </head>
+  
+  
+  <body style="background-color: #E3F2FD;">
+
+  <div class = "container-fluid"> 
+    <h1 class = "test">To-Do</h1>
+    <div class = "container-fluid"> 
+      
+      <!-- Input Form and Button -->
+
+      <div class = "form-group text-center">
+        <form id = "todoform">  
+          <input type = "text" class = "form-control" id = "todo_item" placeholder= "Enter To-Do item here.">
+          <button class =  "btn btnview" id = "todo_sub">Add To-Do Item</button>
+        </form>
+      </div>
+      
+      <!-- To-Do List Box (Leftblock) -->
+
+      <div class = "row">
+        
+        <div class = "col-xs-6 well leftblock" style = "overflow: scroll; max-height: 450px;" id = "todo_box">
+          
+          <div class = "lefttext">
+            To-Do List:                                    
+          </div><br>
+                                                  <!-- New/Reverted tasks will be added here --> 
+          <div id = "todo_items">
+
+          </div>
+
+        </div>
+
+        <!-- Completed Tasks box (Rightblock) -->
+        
+        <div class = "col-xs-6 well rightblock" style = "overflow: scroll; max-height: 450px;" id = "completed_box">
+          
+          <div class = "righttext">
+            Completed Tasks:
+          </div><br>
+
+          <div id = "completed_tasks">
+                                                  <!-- Completed tasks will be added here --> 
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  </body>
+</html>
+
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+<script type = "text/javascript" src="./main.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
